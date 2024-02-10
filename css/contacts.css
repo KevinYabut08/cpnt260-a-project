@@ -1,0 +1,39 @@
+body {
+  background-image: url(/assets/background-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  overflow: hidden;
+  font-size: 17px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  position: absolute;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 2em;
+}
+
+li a {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header {
+  padding: 20px;
+}
+
+.logo a {
+  display: block;
+}

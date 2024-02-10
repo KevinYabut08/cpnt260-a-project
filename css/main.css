@@ -1,0 +1,57 @@
+body {
+  background-image: url(/assets/background-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.logo {
+  overflow: hidden;
+  font-size: 17px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em 2em;
+  position: absolute;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  gap: 2em;
+}
+
+li a {
+  color: white;
+  display: flex;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header {
+  padding: 20px;
+}
+
+.logo a {
+  display: block;
+}
+
+li a:hover {
+  color: lightcoral;
+}
+
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+}
+
+footer {
+  background-color: #f1e591;
+  padding: 30px;
+  top: 100%;
+}
