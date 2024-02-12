@@ -188,6 +188,101 @@ input[type="checkbox"] {
   opacity: 0.8;
 }
 
+#title-Tag-Line {
+  font-size: 20px;
+}
+
+.form {
+  background: #f314c1;
+  box-shadow: 0 30px 60px 0 #5224bb;
+  border-radius: 5px;
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  left: 0;
+  right: 0;
+  position: absolute;
+  border-top: 5px solid #280e73;
+  animation: bounce 1.5s infinite;
+}
+::-webkit-input-placeholder {
+  font-size: 1.3em;
+}
+
+.title {
+  display: block;
+  font-family: sans-serif;
+  margin: 10px auto 5px;
+  width: 200px;
+}
+.termsConditions {
+  margin: 0 auto 5px 80px;
+}
+
+.pageTitle {
+  font-size: 2em;
+  font-weight: bold;
+  color: #280e73;
+}
+
+.secondaryTitle {
+  color: #280e73;
+}
+
+.name {
+  background-color: #ebebeb;
+  color: #f314c1;
+}
+
+.email {
+  background-color: #ebebeb;
+  color: #f314c1;
+  height: 2em;
+}
+
+.message {
+  background-color: #ebebeb;
+  color: #f314c1;
+  overflow: hidden;
+  height: 10rem;
+}
+
+.formEntry {
+  display: block;
+  margin: 30px auto;
+  min-width: 250px;
+  padding: 10px;
+  border-radius: 2px;
+  border: none;
+  transition: all 0.5s ease 0s;
+}
+
+.submit {
+  width: 100px;
+  color: white;
+  background-color: #b42f62;
+  font-size: 20px;
+}
+
+.submit:hover {
+  box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+  transform: translateY(-3px);
+  width: 150px;
+  border-top: 5px solid #0e3750;
+  border-radius: 0%;
+}
+
+@keyframes bounce {
+  0% {
+    tranform: translate(0, 4px);
+  }
+  50% {
+    transform: translate(0, 8px);
+  }
+}
+
 @media screen and (min-width: 600px) {
   body {
     background-size: cover;
@@ -268,5 +363,92 @@ input[type="checkbox"] {
     text-align: center;
     text-decoration: none;
     margin-top: 600px;
+  }
+
+  #title-Tag-Line {
+    font-size: 20px;
+  }
+
+  .form {
+    background: #f314c1;
+    box-shadow: 0 30px 60px 0 #5224bb;
+    border-radius: 5px;
+    max-width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    right: 0;
+    position: absolute;
+    border-top: 5px solid #280e73;
+    animation: bounce 1.5s infinite;
+  }
+
+  ::-webkit-input-placeholder {
+    font-size: 1.3em;
+  }
+
+  .title {
+    display: block;
+    font-family: sans-serif;
+    margin: 10px auto 5px;
+    width: 300px;
+  }
+  .termsConditions {
+    margin: 0 auto 5px 80px;
+  }
+
+  .pageTitle {
+    font-size: 2em;
+    font-weight: bold;
+    color: #280e73;
+  }
+
+  .secondaryTitle {
+    color: #280e73;
+  }
+
+  .name {
+    background-color: #ebebeb;
+    color: #f314c1;
+  }
+
+  .email {
+    background-color: #ebebeb;
+    color: #f314c1;
+    height: 2em;
+  }
+
+  .message {
+    background-color: #ebebeb;
+    color: #f314c1;
+    overflow: hidden;
+    height: 10rem;
+  }
+
+  .formEntry {
+    display: block;
+    margin: 30px auto;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 2px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+
+  .submit {
+    width: 200px;
+    color: white;
+    background-color: #b42f62;
+    font-size: 20px;
+  }
+
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #0e3750;
+    border-radius: 0%;
   }
 }
