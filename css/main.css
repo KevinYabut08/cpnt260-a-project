@@ -230,6 +230,40 @@ input[type="checkbox"] {
   display: none;
 }
 
+.fa {
+  padding: 20px;
+  text-align: center;
+  margin: 5px 2px;
+  font-size: 25px;
+  width: 60px;
+  height: 60px;
+  border-radius: 10px;
+}
+.fa-facebook {
+  background: #f4d88b;
+  color: white;
+}
+.fa-twitter {
+  background: #f4d88b;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #f4d88b;
+  color: white;
+}
+.fa-instagram {
+  background: #f4d88b;
+  color: white;
+}
+.fa-youtube {
+  background: #f4d88b;
+  color: white;
+}
+.fa:hover {
+  opacity: 0.8;
+}
+
 @media screen and (min-width: 600px) {
   body {
     background-size: cover;
