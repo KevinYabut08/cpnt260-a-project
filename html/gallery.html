@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/gallery.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,14 +10,19 @@
   <body>
     <header>
       <nav>
+        <input type="checkbox" id="active" />
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
         <div class="logo">
-          <a href="index.html"><img src="../assets/logo.png" alt="logo" /></a>
+          <a href="/index.html"><img src="../assets/logo.png" alt="logo" /></a>
         </div>
-        <ul>
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="/html/gallery.html">Gallery</a></li>
-          <li><a href="/html/contacts.html">Contacts</a></li>
-        </ul>
+        <div class="wrapper">
+          <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="/html/gallery.html">Gallery</a></li>
+            <li><a href="/html/contacts.html">Contacts</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
@@ -133,6 +139,13 @@
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <h3>DESIGNED BY GRIT</h3>
+      <p>
+        <a href="https://maps.app.goo.gl/hnez1p7PUZ5ADkcQ7"
+          >GUAGUA, PAMPANGA , PHILIPPINES</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

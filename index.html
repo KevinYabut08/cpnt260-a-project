@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/main.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -9,19 +10,88 @@
   <body>
     <header>
       <nav>
+        <input type="checkbox" id="active" />
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
         <div class="logo">
-          <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
+          <a href="./index.html"
+            ><img src="./assets/logo-1.png" alt="logo"
+          /></a>
         </div>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="./html/gallery.html">Gallery</a></li>
-          <li><a href="./html/contacts.html">Contacts</a></li>
-        </ul>
+        <div class="wrapper">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="./html/gallery.html">Gallery</a></li>
+            <li><a href="./html/contacts.html">Contacts</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
     <main>
-      <h1>THE GRIT</h1>
+      <div>
+        <h1>THE GRIT</h1>
+      </div>
+      <div class="container">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <button><h2>PERSEVERANCE</h2></button>
+            </div>
+            <div class="flip-card-back">
+              <iframe width="300" height="150" src=""></iframe>
+              <h4>
+                "Perseverance is the beacon that guides us through the darkest
+                of nights and the stormiest of seas. It's the relentless force
+                within us that refuses to yield to adversity."
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <button><h2>PASSION</h2></button>
+            </div>
+            <div class="flip-card-back">
+              <iframe width="300" height="150" src=""> </iframe>
+
+              <h4>
+                "Passion is the fire that ignites our souls and propels us
+                toward our deepest desires. It's the driving force behind every
+                great accomplishment, infusing our actions with purpose and
+                intensity. With passion as our compass, we navigate the
+                complexities of life with unwavering determination and
+                enthusiasm."
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <button><h2>COURAGE</h2></button>
+            </div>
+            <div class="flip-card-back">
+              <iframe width="300" height="150" src=""> </iframe>
+              <h4>
+                “Courage is the warrior within, standing firm in the face of
+                fear and uncertainty. It's the strength to confront adversity
+                with unwavering resolve, to rise above doubt and hesitation.
+                With courage as our shield, we march forward into the unknown,
+                daring to chase our dreams despite the odds.”
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
-    <footer></footer>
+    <footer>
+      <h3>DESIGNED BY GRIT</h3>
+      <p>
+        <a href="https://maps.app.goo.gl/hnez1p7PUZ5ADkcQ7"
+          >GUAGUA, PAMPANGA , PHILIPPINES</a
+        >
+      </p>
+    </footer>
   </body>
 </html>
