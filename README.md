@@ -1,4 +1,4 @@
-#CPNT260-A#
-##FINAL-PROJECT##
+# CPNT260-A
+## FINAL-PROJECT
 - Kevin Yabut
 - 
