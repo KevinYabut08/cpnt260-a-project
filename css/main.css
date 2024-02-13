@@ -232,12 +232,12 @@ input[type="checkbox"] {
 }
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  margin: 5px 2px;
-  font-size: 25px;
-  width: 60px;
-  height: 60px;
+  margin: 5px 5px;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
   border-radius: 10px;
 }
 .fa-facebook {
@@ -265,6 +265,7 @@ input[type="checkbox"] {
   opacity: 0.8;
 }
 
+/*responsive css*/
 @media screen and (min-width: 600px) {
   body {
     background-size: cover;
@@ -411,5 +412,15 @@ input[type="checkbox"] {
     border-radius: 10%;
     width: 250px;
     height: 150px;
+  }
+
+  .fa {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
   }
 }

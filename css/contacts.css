@@ -155,18 +155,20 @@ input[type="checkbox"] {
 }
 
 .fa {
-  padding: 20px;
+  padding: 10px;
   text-align: center;
-  margin: 5px 2px;
-  font-size: 25px;
-  width: 60px;
-  height: 60px;
+  margin: 5px 5px;
+  font-size: 20px;
+  width: 35px;
+  height: 35px;
   border-radius: 10px;
 }
+
 .fa-facebook {
   background: #5224bb;
   color: white;
 }
+
 .fa-twitter {
   background: #5224bb;
   color: white;
@@ -176,14 +178,17 @@ input[type="checkbox"] {
   background: #5224bb;
   color: white;
 }
+
 .fa-instagram {
   background: #5224bb;
   color: white;
 }
+
 .fa-youtube {
   background: #5224bb;
   color: white;
 }
+
 .fa:hover {
   opacity: 0.8;
 }
@@ -281,6 +286,7 @@ input[type="checkbox"] {
   }
 }
 
+/*responsive css*/
 @media screen and (min-width: 600px) {
   body {
     background-size: cover;
@@ -448,5 +454,15 @@ input[type="checkbox"] {
     width: 300px;
     border-top: 5px solid #0e3750;
     border-radius: 0%;
+  }
+
+  .fa {
+    padding: 20px;
+    text-align: center;
+    margin: 5px 2px;
+    font-size: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
   }
 }
